@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en" data-theme="civic-paper">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>209 — Public Records. Working Systems. Community Power.</title>
+<meta name="description" content="209 is a living civic and systems interface: public records, working tools, community intelligence, and the work of David Sicairos.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/">209<span class="brand-dot">.</span></a>
+  <nav>
+    <a href="#signal">Signal</a>
+    <a href="#records">Records</a>
+    <a href="#tools">Tools</a>
+    <a href="working-record.html">The Working Record</a>
+  </nav>
+  <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">◐</button>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">209 Intelligence Interface</p>
+      <h1>Public records. Working systems. Community power.</h1>
+      <p class="lede">A living interface for Central Valley accountability, practical systems, and the work of David Sicairos.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#records">Explore the record</a>
+        <a class="button ghost" href="working-record.html">The Working Record</a>
+      </div>
+    </div>
+    <aside class="hero-panel" id="museStatus">
+      <h2>System status</h2>
+      <div id="statusList" class="status-list"><p class="muted">Loading lane health…</p></div>
+    </aside>
+  </section>
+
+  <section id="signal" class="section">
+    <div class="section-head">
+      <h2>Live 209 Signal</h2>
+      <p>The latest approved public update from the 209 ecosystem.</p>
+    </div>
+    <article class="signal-card" id="latestSignal">
+      <p class="muted">Loading latest signal…</p>
+    </article>
+  </section>
+
+  <section id="records" class="section">
+    <div class="section-head">
+      <h2>Record Watch</h2>
+      <p>Recent public-record updates, tracker activity, and accountability notes.</p>
+    </div>
+    <div id="recordFeed" class="card-grid"><p class="muted">Loading records…</p></div>
+  </section>
+
+  <section class="section lens-section">
+    <div class="section-head">
+      <h2>Choose your lens</h2>
+      <p>Tell the interface what matters to you. Your choice stays on this device unless you choose to save it.</p>
+    </div>
+    <div class="lens-grid">
+      <button class="lens" data-lens="records"><span>Public records</span><small>Accountability, documents, deadlines</small></button>
+      <button class="lens" data-lens="systems"><span>Systems & tools</span><small>Automation, publishing, intelligence</small></button>
+      <button class="lens" data-lens="creative"><span>Creative practice</span><small>Brand, community, professional growth</small></button>
+    </div>
+  </section>
+
+  <section id="tools" class="section">
+    <div class="section-head">
+      <h2>Working tools</h2>
+      <p>Public resources built to make civic information easier to follow and use.</p>
+    </div>
+    <div class="tool-grid">
+      <a class="tool" href="https://sicairos4.github.io/209audit-index-tracker/"><h3>Tracker Index</h3><p>Follow records, deadlines, and public accountability threads.</p></a>
+      <a class="tool" href="https://sicairos4.github.io/209audit-cpra-playbook/"><h3>CPRA Playbook</h3><p>A practical guide for requesting and tracking public records.</p></a>
+      <a class="tool" href="https://209connect.beehiiv.com/"><h3>209 Signal</h3><p>Get the next public update from the 209 ecosystem.</p></a>
+    </div>
+  </section>
+
+  <section class="section newsletter">
+    <div class="newsletter-card">
+      <h2>The 209 Signal</h2>
+      <p>A public-interest briefing on records, systems, and the work behind them.</p>
+      <a class="button primary" href="https://209connect.beehiiv.com/">Get the next update</a>
+      <p class="fine-print">Public-interest updates. No spam. Unsubscribe anytime.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p><strong>209</strong> — Public records. Working systems. Community power.</p>
+  <p class="fine-print">This site presents public-interest information and approved updates. It does not provide legal advice. Allegations and pending matters are presented as such.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
